@@ -7,7 +7,11 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    tsconfigRootDir: __dirname,
     project: './tsconfig.eslint.json',
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
 }
